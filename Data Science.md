@@ -15,7 +15,7 @@ It allows users to create, read, update, and delete (CRUD) data in databases.<br
 
 SQL is used in Data science for different purposes like :
 1. Data Extraction<br>
-2. Data cleaning and website<br>
+2. Data cleaning and preparation<br>
 3. Data Aggregation and Summarization<br>
 4. Joining multiple Data Sources<br>
 
