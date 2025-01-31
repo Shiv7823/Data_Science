@@ -3,7 +3,7 @@
 
 
 
-#What is SQL ?
+# What is SQL ?
 
 SQL (Structured Query Language) is a standard language used to store, manipulate, and retrieve data in relational databases.<br>
 It allows users to create, read, update, and delete (CRUD) data in databases.<br>
@@ -11,7 +11,7 @@ It allows users to create, read, update, and delete (CRUD) data in databases.<br
 <br>
 <br>
 
-#Why SQL is Important in Data Science ?
+# Why SQL is Important in Data Science ?
 
 SQL is used in Data science for different purposes like :
 1. Data Extraction<br>
