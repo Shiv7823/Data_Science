@@ -1,4 +1,10 @@
-1. **Create a table named Employees**
+1. **Select the database to use**
+
+```sql
+USE your_database_name;
+```
+
+2. **Create a table named Employees**
 
 ```sql
 CREATE TABLE Employees (
@@ -10,7 +16,7 @@ CREATE TABLE Employees (
 );
 ```
 
-2. **Insert data into Employees table**
+3. **Insert data into Employees table**
 
 ```sql
 INSERT INTO Employees (EmployeeID, Name, Department, Salary, Experience) VALUES
@@ -26,67 +32,68 @@ INSERT INTO Employees (EmployeeID, Name, Department, Salary, Experience) VALUES
 (10, 'Meera Iyer', 'HR', 63000, 4);
 ```
 
-3. **Add a new column (Bonus) to Employees table**
+4. **Add a new column (Bonus) to Employees table**
 
 ```sql
 ALTER TABLE Employees ADD Bonus DECIMAL(10,2);
 ```
 
-4. **Remove the Bonus column from Employees table**
+5. **Remove the Bonus column from Employees table**
 
 ```sql
 ALTER TABLE Employees DROP COLUMN Bonus;
 ```
 
-5. **Remove all records from Employees table without deleting the structure**
+6. **Remove all records from Employees table without deleting the structure**
 
 ```sql
 TRUNCATE TABLE Employees;
 ```
 
-6. **Update salary of an employee with EmployeeID = 1**
+7. **Update salary of an employee with EmployeeID = 1**
 
 ```sql
 UPDATE Employees SET Salary = 78000 WHERE EmployeeID = 1;
 ```
 
-7. **Retrieve all records from Employees table**
+8. **Retrieve all records from Employees table**
 
 ```sql
 SELECT * FROM Employees;
 ```
 
-8. **Delete an employee record with EmployeeID = 5**
+9. **Delete an employee record with EmployeeID = 5**
 
 ```sql
 DELETE FROM Employees WHERE EmployeeID = 5;
 ```
 
-9. **Get the minimum salary in Employees table**
+10. **Get the minimum salary in Employees table**
 
 ```sql
 SELECT MIN(Salary) FROM Employees;
 ```
 
-10. **Get the maximum salary in Employees table**
+11. **Get the maximum salary in Employees table**
 
 ```sql
 SELECT MAX(Salary) FROM Employees;
 ```
 
-11. **Get the total number of employees**
+12. **Get the total number of employees**
 
 ```sql
 SELECT COUNT(*) FROM Employees;
 ```
 
-12. **Get the total sum of all salaries**
+13. **Get the total sum of all salaries**
 
 ```sql
 SELECT SUM(Salary) FROM Employees;
 ```
 
-13. **Get the average salary in Employees table**
+14. **Get the average salary in Employees table**
 
 ```sql
 SELECT AVG(Salary) FROM Employees;
+```
