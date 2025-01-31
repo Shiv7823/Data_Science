@@ -1,3 +1,35 @@
+
+![SQL Image](https://media.istockphoto.com/id/1673063844/vector/sql-dtabase-flat-design.jpg?s=612x612&w=0&k=20&c=t-YSg_Wl7z8nJwhqZ2e74p_8tY98XWrJlOG9Vmdb_HY=)
+
+
+
+#What is SQL ?
+
+SQL (Structured Query Language) is a standard language used to store, manipulate, and retrieve data in relational databases.<br>
+It allows users to create, read, update, and delete (CRUD) data in databases.<br>
+
+<br>
+<br>
+
+#Why SQL is Important in Data Science ?
+
+SQL is used in Data science for different purposes like :
+1. Data Extraction<br>
+2. Data cleaning and website<br>
+3. Data Aggregation and Summarization<br>
+4. Joining multiple Data Sources<br>
+
+
+<br>
+<br>
+
+
+**Create a database**
+```sql
+CREATE DATABASE database_name
+```
+
+
 1. **Select the database to use**
 
 ```sql
