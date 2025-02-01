@@ -26,7 +26,7 @@ SQL is used in Data science for different purposes like :
 
 **Create a database**
 ```sql
-CREATE DATABASE database_name
+CREATE DATABASE database_name;
 ```
 
 
